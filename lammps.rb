@@ -2,11 +2,11 @@ require 'formula'
 
 class Lammps < Formula
   homepage 'http://lammps.sandia.gov'
-  url 'http://lammps.sandia.gov/tars/lammps-17Dec13.tar.gz'
+  url 'http://lammps.sandia.gov/tars/lammps-12Feb14.tar.gz'
   sha1 '80dc6889516c9743c3103f3d5e2e7d2540bab198'
   # lammps releases are named after their release date. We transform it to
   # YYYY.MM.DD (year.month.day) so that we get a comparable version numbering (for brew outdated)
-  version '2013.12.17'
+  version '2014.02.12'
   head 'http://git.icms.temple.edu/lammps-ro.git'
 
   # user-submitted packages not considered "standard"
